@@ -1,0 +1,24 @@
+CardOperationsId
+COID-2970197 - Fraud
+4816,0,0,76,3,9,3,3,3,3,3,3,0,74,-81,0,-76
+
+CardOperationsId
+COID-3569530 - Fraud
+4812,0,0,61,3,9,3,3,3,3,3,3,0,59,-66,0,-61
+
+CardOperationsId
+COID-1179178 - Not Fraud in main dataset (flags as Fraud ..in reduced feature set)
+5964,0,0,50,1,1,0,0,0,1,1,1,1,50,-50,1,-49
+
+
+CardOperationsId
+COID-581604 - Not Fraud
+5542,0,0,2,2,1,1,2,4,4,4,5,2,2,5,2,0
+
+
+CardOperationsId
+COID-581654 - Not Fraud (very much not fraud)
+5814,1,0,2,4,2,1,1,4,4,4,5,2,2,5,2,0
+
+
+
