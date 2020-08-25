@@ -1,0 +1,2 @@
+SELECT * FROM t1 WHERE nativeCountry_IsMissing = '1'
+SELECT * FROM t1 WHERE nativeCountry_IsMissing IS 1

@@ -1,0 +1,8 @@
+SELECT * FROM tl
+WHERE sex='Male’ AND relationship = 'Wife' OR 
+sex='Female' AND relationship = 'Husband';
+
+
+SELECT * FROM tl
+WHERE NOT ((sex='Male' AND relationship = 'Wife') 
+OR (sex='Female' AND relationship = 'Husband'));

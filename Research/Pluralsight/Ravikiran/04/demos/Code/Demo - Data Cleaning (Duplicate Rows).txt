@@ -1,0 +1,5 @@
+SELECT *, COUNT(*) as Duplicates
+FROM t1
+GROUP BY
+Age, workingClass, Weight, education, educationNum, maritalStatus, occupation, relationship, race, sex, capitalGain, capitalLoss, hoursPerWeek, nativeCountry, income
+HAVING COUNT(*) > 1;

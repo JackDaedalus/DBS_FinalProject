@@ -1,0 +1,2 @@
+SELECT occupation, workingClass, COUNT() FROM t1
+GROUP BY occupation, workingClass;

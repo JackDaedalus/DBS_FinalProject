@@ -1,0 +1,18 @@
+# imports the modules 
+import matplotlib 
+matplotlib.use("agg")
+from pandas.tools.plotting import boxplot
+import matplotlib.pyplot as plt
+
+def azureml_main(dataframe1):
+
+# Execution logic
+
+fig = plt.figure();
+ax = fig.gca();
+boxplot(dataframel['hoursPerWeek'], ax=ax);
+
+fig.savefig("boxplot.png") 
+
+return dataframel;
+

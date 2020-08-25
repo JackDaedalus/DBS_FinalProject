@@ -1,0 +1,29 @@
+
+### Create Data Frame
+
+df1 = data.frame(Grade_score=c(4,6,2,9,5,7,8),
+                 Mathematics1_score=c(45,78,44,89,66,49,72),
+                 Test_score=c(1,1,1,1,1,1,1),
+                 Test_score2=c(61,155,144,41,41,12,134),
+                 Test_score3=c(5,5,5,5,5,5,5),
+                 Science_score=c(56,52,45,88,33,90,47))
+df1
+
+
+# Get Mean of the column by column position
+mean(df1[,4])
+
+# Get Standard Deviation of the column by column position
+sd(df1[,4])
+
+df1
+
+# loop through dataset
+for (i in colnames(df1)){
+  if ((sd(df1[,i])) == 0) {
+    df1[[i]] <- NULL
+  }
+}
+
+
+df1
