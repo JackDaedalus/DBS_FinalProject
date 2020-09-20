@@ -1,0 +1,13 @@
+name: DBS_CCFraudRShinyApp_10524150
+title: DBS_CCFraudRShinyApp_10524150
+username:
+account: ciaran-finnegan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2660968
+bundleId: 3503054
+url: https://ciaran-finnegan.shinyapps.io/DBS_CCFraudRShinyApp_10524150/
+when: 1597173225.77744
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: german.data.with.headings.csv|pima-indians-diabetes.csv

@@ -1,0 +1,13 @@
+name: DBS_FinalDraft_1
+title: DBS_FinalDraft_1
+username:
+account: ciaran-finnegan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2796504
+bundleId: 3640835
+url: https://ciaran-finnegan.shinyapps.io/DBS_FinalDraft_1/
+when: 1600365324.09752
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: cleardisplay.txt|dispcntrl.R
